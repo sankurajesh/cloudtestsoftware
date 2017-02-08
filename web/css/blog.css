@@ -1,0 +1,324 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 28, 2016, 12:36:53 PM
+    Author     : RAJESH
+*/
+@media screen and (max-height: 450px) {
+  body { position: relative } /* Or change the height or whatever */ 
+}
+
+/*-------------header part----------------*/
+#fluid1{
+    background-color:#F44336;color:#fff;height:200px;width:1100px;
+}
+.ribbon {
+    font-size: 16px !important;
+    width: 140px;  
+    position: relative;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0px; /* Adjust to suit */
+    margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+    float:right;
+    margin-right: -25px;
+    margin-top: 140px;
+    text-decoration: none;
+}
+.ribbon a:hover{
+    text-decoration:none!important;
+    color: fuchsia;
+}
+.ribbon:after {
+    right: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.ribbon:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-right-color: #000;
+    border-width: 25px;
+    top: 50%;
+    margin-top: -25px;
+}
+.ribbon .ribbon-content:after {
+    content: "";
+    position: absolute;
+    display: block;
+    border-style: solid;
+    border-color: #999 transparent transparent transparent;
+    bottom: -10px;
+}
+.ribbon .ribbon-content:after {
+    right: 0;
+    border-width: 10px 10px 0 0;
+}
+
+.ribbon5{
+    position:relative;
+    background:#1BB5E0;
+    width:600px;
+    height:50px;
+    left:500px;
+    box-shadow:0 0 15px rgba(0, 0, 0, 0.3);
+    border-bottom-left-radius: 50px
+}
+
+
+
+.triangle3{
+    position:relative;
+    width:50px;
+    height:50px;
+    top:-25px;
+    right:-1040px;
+    background:#016E8C;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    z-index:-1;
+}
+
+ul li{
+    display:inline-block;
+    list-style:none;
+    font-family:helvetica;
+    font-style:italic;
+    margin-top:15px;
+    margin-right:15px;
+}
+
+ul li a{
+    text-decoration:none;
+    text-align:center;
+    padding:10px 15px 10px 15px;
+    color:#fff;
+    border-radius:5px;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 18px;
+}
+
+ul li a:hover{
+    text-decoration:none!important;
+    background:#30A8C9;
+    box-shadow:0 1px 1px rgba(255, 255, 255, 0.4), 0 -1px 1px rgba(0, 0, 0, 0.3);
+}
+ #navbar-nav li{
+                margin-top: 5px;
+            }
+            #navbar-nav{
+                height: 65px;
+
+            }
+#navbar-inverse{
+    background: url(../image/hbk.PNG) repeat top center;
+    border-color: #4583A6;
+    border-radius: 0;
+}
+.headerlist{
+    display: inline-block;
+    float: right;
+}
+
+.dropbtn {
+    background-image:url('image/img05.jpg');
+    color: white;
+    padding: 14px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+        background: #c2e184;
+    width:250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    height:auto;
+    margin-top: 10px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 50px;
+    border: 2px dotted  #32cd32;
+}
+
+.dropdown-content a {
+    color: #555;
+    padding: 4.7px 7px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #bfbff2;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 50px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-image:url('image/img05.jpg');
+}
+.wrapper{
+    position:relative;
+    background: url(../image/bg-headliner.gif) repeat top center;
+    width:1100px;
+    height:auto;
+    margin:0 auto;
+    border-radius:7px;
+}
+.wrapper1{
+    position:relative;
+    background: url(../image/img05.jpg) repeat top center;
+    width:1100px;
+    height:auto;
+    margin:0 auto;
+   overflow: hidden;
+    text-align: center;
+    margin-top: -1.6%;
+}
+
+#butn1{
+
+    padding:10px 50px;
+    margin: 70px
+}
+#butn{
+
+    padding:10px 90px;
+
+}
+/*images code*/
+#img1{
+    width: 1100px;
+
+
+}
+#img2{
+    width: 950px;
+}
+.wrapper1 p{
+    text-align: justify;
+    letter-spacing: 1px;
+    font-size: 16px;
+      font-family: "Arial Narrow", Arial, sans-serif;
+    color:#006666;
+
+}
+#sideimg{
+    width: 400px; height: 250px;
+}
+
+.btn{
+    height: 40px;
+}
+h3{
+   text-align: left;
+}
+#hd h3{
+    color: #1b61e4;
+}
+#ppp{
+    color: #FF69B4
+}
+#archive p{
+    color:blueviolet;
+}
+#tags p{
+    color: dodgerblue
+}
+/*----------footer-----------*/
+.footer div{
+    position:relative;
+    background: url(../image/bg-body.gif) repeat top center;
+    width:1100px;
+    height:220px;
+    margin:0 auto;
+    overflow: hidden;
+    border-top:3px dotted  #CCC;
+}
+.footer ul li a{
+    color: navajowhite;
+margin-bottom: 1px;
+height: 15px
+}
+.footer ul li{
+    color: lightskyblue;
+}
+.verticalLine{
+    border-right:2px  #d3d9de;
+    height: 220px
+}
+#fluid9,p{
+    color:#d7fa70;
+    font-family: "Times New Roman", Times, serif;
+}
+#fluid9 h3{
+     color:#7093fa;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+}
+#fluid9 p span{
+    color:#fff;
+}
+#fluid9 p a{
+    color:	#d7fa70;
+    font-size: 18px;
+}
+#fluid9 p span{
+    font-style: italic;
+    font-size: 14px;
+}
+#fluid9 a:hover{
+    text-decoration: none;
+    color:hotpink;
+}
+#fluid9{
+    background: url(../image/bg-body.gif) repeat top center;
+    width:100%;
+    height:250px; 
+    position: relative;
+}
+.footer ul li a:hover{
+    text-decoration:none!important;
+    border-radius: 0;
+    border-top:2px solid greenyellow;
+    color: #fff;
+
+}
+.footer ul li a{
+    text-decoration:none!important;
+    border-radius: 0;
+    border-right:1px dotted white;
+padding-left: 6px;
+}
+.wrapper3{
+    position:relative;
+    background: url(../image/bg-headliner.gif) repeat top center;
+    width:1100px;
+    height:250px;
+    margin:0 auto;
+    border-radius:7px;
+    margin-top: -2%;
+}
